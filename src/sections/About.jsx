@@ -108,7 +108,7 @@ export default function About() {
           <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-transparent dark:from-blue-900/30 z-10"></div>
           <img
             className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full transform group-hover:scale-105 transition-transform duration-700"
-            src="https://cdn.pixabay.com/photo/2017/06/20/20/46/granite-2428875_1280.jpg"
+            src="https://thumb.photo-ac.com/3e/3ec3f3cd7b0a2636a65ce2a46e015b5e_t.jpeg"
             alt="Stone products in Ethiopia"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-all duration-700"></div>
