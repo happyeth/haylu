@@ -11,14 +11,18 @@ export default function App() {
   return (
     <div className="font-sans">
       <Navbar />
+
       <motion.div
+        id="home"   // 👈 add this
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <Hero />
       </motion.div>
+
       <motion.div
+        id="about"   // 👈 add this
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
@@ -26,7 +30,9 @@ export default function App() {
       >
         <About />
       </motion.div>
+
       <motion.div
+        id="products"   // 👈 add this
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -34,7 +40,9 @@ export default function App() {
       >
         <Products />
       </motion.div>
+
       <motion.div
+        id="sustainability"   // 👈 add this
         initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
         whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
         viewport={{ once: true }}
@@ -42,7 +50,9 @@ export default function App() {
       >
         <Sustainability />
       </motion.div>
+
       <motion.div
+        id="contact"   // 👈 add this
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
@@ -50,6 +60,7 @@ export default function App() {
       >
         <Contact />
       </motion.div>
+
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
