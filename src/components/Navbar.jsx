@@ -17,41 +17,6 @@ const Navbar = () => {
   return (
     <>
       {/* Top Header Section - Always visible at top */}
-      <div className="bg-gray-800 text-white relative z-50">
-        <div className="flex flex-col items-center justify-center text-center p-4 border-b border-gray-700">
-          <h1 className="text-lg sm:text-2xl font-extrabold tracking-wide uppercase">
-            S.B.G GENERAL METAL ENGINEERING P.L.C
-          </h1>
-          <p className="text-xs sm:text-sm font-medium text-gray-300 mt-1">
-            ኤ.ሲ.ቢ.ጂ. ጠቅላላ የብረት ስራ ኢንጂኔሪንግ ኃ/የተ/የግ/ማህበር
-          </p>
-          <div className="w-20 border-t-2 border-blue-400 my-2"></div>
-          <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-1 sm:space-y-0 text-xs sm:text-sm font-light text-gray-400">
-            <div className="flex items-center space-x-1">
-              <span>📞</span>
-              <span>+251-911-225-990</span>
-            </div>
-            <div className="flex items-center space-x-1">
-              <span>📞</span>
-              <span>+251-911-128-814</span>
-            </div>
-            <div className="flex items-center space-x-1">
-              <span>📠</span>
-              <span>Fax 0114-42 16 01</span>
-            </div>
-          </div>
-          <p className="text-xs sm:text-sm font-light text-gray-400 pt-1">
-            E-mail:{" "}
-            <a
-              href="mailto:ksmon369@gmail.com"
-              className="text-blue-400 hover:text-blue-300 transition-colors"
-            >
-              ksmon369@gmail.com
-            </a>
-          </p>
-        </div>
-      </div>
-
       {/* Navbar Section - Becomes sticky after scrolling past header */}
       <nav
         className={`bg-gray-900 shadow-md transition-all duration-300 ${
